@@ -1,0 +1,15 @@
+o Install Python
+  $ brew install pyenv
+  $ pyenv install 3.6.9
+  $ pyenv global 3.6.9
+
+o Clone repo
+  $ git clone git@github.com:aditya9898/transfer-learning.git
+
+o Virtualenv
+  $ python -m venv transfer-learning
+  $ cd transfer-learning
+  $ . ./bin/activate
+  
+o Dependecies
+  $ pip install pandas keras tensorflow matplotlib pillow
